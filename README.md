@@ -35,10 +35,15 @@ Shopify で **コンテンツの一覧表示 + タブ切替** を簡単に実装
 
 ## 🧩 セクションの構成サンプル
 - 親セクション
+
 ![setting01](images/setting01.jpg)
+
 ![setting02](images/setting02.jpg)
+
 ![setting03](images/setting03.jpg)
+
 - 子セクション
+
 ![setting04](images/setting04.jpg)
 
 ---
