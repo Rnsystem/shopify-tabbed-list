@@ -25,19 +25,20 @@ Shopify で **コンテンツの一覧表示 + タブ切替** を簡単に実装
 
 ## 💻 完成ビューサンプル
 
-完成プレビューサンプルです。
+- 完成プレビューサンプルです。
 ![Preview01](images/sample01.jpg)
-タブ切り替え時のプレビューサンプルです。
+
+- タブ切り替え時のプレビューサンプルです。
 ![Preview02](images/sample02.jpg)
 
 ---
 
 ## 🧩 セクションの構成サンプル
-親セクション
+- 親セクション
 ![setting01](images/setting01.jpg)
 ![setting02](images/setting02.jpg)
 ![setting03](images/setting03.jpg)
-子セクション
+- 子セクション
 ![setting04](images/setting04.jpg)
 
 ---
