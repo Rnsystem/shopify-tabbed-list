@@ -1,0 +1,115 @@
+.blog-slide .blog__image {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.blog-slide .card-wrapper .text-wrapper {
+  padding-bottom: 1.7rem;
+  padding-top: 1.7rem;
+}
+
+@media (max-width: 767px) {
+  .blog-slide .card-wrapper .text-wrapper {
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+  }
+}
+.blog-slide .card-wrapper .text-wrapper p {
+  margin: 0;
+}
+
+.blog-slide.type_card .grid__item {
+  flex: 0 0 calc(50% - 15px);
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card .grid__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.blog-slide.type_card .grid__item .card-wrapper > a {
+  display: flex;
+  position: relative;
+}
+.blog-slide.type_card .grid__item .card-wrapper > a:before {
+  position: absolute;
+  content: "MORE";
+  right: 32px;
+  bottom: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+}
+.blog-slide.type_card .grid__item .card-wrapper > a:after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+  right: 22px;
+  bottom: 23px;
+}
+.blog-slide.type_card .grid {
+  gap: 30px 30px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card .grid {
+    gap: 15px;
+  }
+}
+.blog-slide.type_card .blog__image {
+  max-width: 135px;
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card .blog__image {
+    max-width: 120px;
+  }
+}
+.blog-slide.type_card p.a-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card p.a-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+}
+.blog-slide.type_card p.a-content {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card p.a-content {
+    display: none;
+  }
+}
+.blog-slide.type_card .card-wrapper span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+@media (max-width: 767px) {
+  .blog-slide.type_card .card-wrapper span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+}
+.blog-slide.type_card .card-wrapper div.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
